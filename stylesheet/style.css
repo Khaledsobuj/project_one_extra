@@ -10,13 +10,30 @@
 
 
 /* shared style */
-.text-primary{
+.text-primary {
     color: #fd6e0a;
+}
+
+.dark-2 {
+    color: #474747;
+
+}
+
+.btn-primary{
+ background-color: #fd6e0a;
+ font-size: 20px;
+ color: #fff;
+ padding: 18px 35px;
 }
 
 /* Nav style */
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px; 
+    /* margin barata hobi */
+    
 }
 
 .nav-title {
@@ -24,3 +41,19 @@ nav {
     font-size: 45px;
 }
 
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
