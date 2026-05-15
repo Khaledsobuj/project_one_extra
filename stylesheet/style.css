@@ -19,21 +19,30 @@
 
 }
 
-.btn-primary{
- background-color: #fd6e0a;
- font-size: 20px;
- color: #fff;
- padding: 18px 35px;
+.btn-primary {
+    background-color: #fd6e0a;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    padding: 18px 35px;
+}
+header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+background-position:top left, bottom right;
 }
 
+
 /* Nav style */
+
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 50px; 
+    margin: 0px 50px;
     /* margin barata hobi */
-    
+
 }
 
 .nav-title {
@@ -57,3 +66,30 @@ nav li a {
     font-size: 20px;
 
 }
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner_content{
+    max-width: 580px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+
+    .banner-title {
+        font-weight: bold;
+        font-size: 85px;
+    }
+
+    .banner-profile-pic {
+        width: 580px;
+
+    }
+    
