@@ -320,7 +320,9 @@ textarea {
 }
 
 @media screen and (min-width:0px) and (max-width:572px) {
-    .footer-section {
+
+    .footer-section,
+    .education_wrap {
         flex-direction: column;
     }
 
@@ -331,14 +333,15 @@ textarea {
 
     .contact {
         width: 100%;
-        text-align: center;  
+        text-align: center;
     }
-    .icones{
-       justify-content: center;
+
+    .icones {
+        justify-content: center;
     }
 
     .message {
         width: 90%;
-       
+
     }
 }
