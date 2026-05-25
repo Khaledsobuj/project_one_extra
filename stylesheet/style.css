@@ -313,3 +313,32 @@ textarea {
     height: 180px;
     border: none;
 }
+
+/* =========================respnsive desigen======================= */
+.haid {
+    display: none;
+}
+
+@media screen and (min-width:0px) and (max-width:572px) {
+    .footer-section {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .contact {
+        width: 100%;
+        text-align: center;  
+    }
+    .icones{
+       justify-content: center;
+    }
+
+    .message {
+        width: 90%;
+       
+    }
+}
